@@ -10,15 +10,18 @@ namespace GeorgiaDavid_NewHealthSystem
     {
         string _name;
 
+        Health _health;
+        Health _sheild;
+
+        public Player(string name, int maxHealth, int maxSheild)
+        {
+            name = _name;
+        }
 
         public void TakeDamage(int damage)
         {
             
         }
 
-        public void GetStatusString()
-        {
-
-        }
     }
 }

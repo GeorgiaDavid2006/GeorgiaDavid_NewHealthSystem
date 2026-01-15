@@ -8,13 +8,13 @@ namespace GeorgiaDavid_NewHealthSystem
 {
     class Health
     {
-       int _currentHealth;
-       int _maxHealth;
+       public int CurrentHealth { get; private set; }
+       public int MaxHealth { get; private set; }
 
         public Health(int maxHealth)
         {
-            _currentHealth = maxHealth;
-            _maxHealth = maxHealth;
+            CurrentHealth = maxHealth;
+            MaxHealth = maxHealth;
         }
 
         public void TakeDamage(int damage)
@@ -25,15 +25,15 @@ namespace GeorgiaDavid_NewHealthSystem
             }
             else
             {
-                _currentHealth -= damage;
+                CurrentHealth -= damage;
 
-                _currentHealth = Math.Max(0, _currentHealth);
+                CurrentHealth = Math.Max(0, CurrentHealth);
             }
         }
 
         public void Restore()
         {
-            _currentHealth = _maxHealth;
+            CurrentHealth = MaxHealth;
         }
 
         public void Heal(int health)
@@ -44,9 +44,9 @@ namespace GeorgiaDavid_NewHealthSystem
             }
             else
             {
-                _currentHealth += health;
+                CurrentHealth += health;
 
-                _currentHealth = Math.Min(_maxHealth, _currentHealth);
+                CurrentHealth = Math.Min(MaxHealth, CurrentHealth);
             }
         }
     }
