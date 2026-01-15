@@ -1,0 +1,7 @@
+C:\Users\georg\ProbuilderCity\GeorgiaDavid_NewHealthSystem\GeorgiaDavid_NewHealthSystem\bin\Debug\GeorgiaDavid_NewHealthSystem.exe.config
+C:\Users\georg\ProbuilderCity\GeorgiaDavid_NewHealthSystem\GeorgiaDavid_NewHealthSystem\bin\Debug\GeorgiaDavid_NewHealthSystem.exe
+C:\Users\georg\ProbuilderCity\GeorgiaDavid_NewHealthSystem\GeorgiaDavid_NewHealthSystem\bin\Debug\GeorgiaDavid_NewHealthSystem.pdb
+C:\Users\georg\ProbuilderCity\GeorgiaDavid_NewHealthSystem\GeorgiaDavid_NewHealthSystem\obj\Debug\GeorgiaDavid_NewHealthSystem.csproj.AssemblyReference.cache
+C:\Users\georg\ProbuilderCity\GeorgiaDavid_NewHealthSystem\GeorgiaDavid_NewHealthSystem\obj\Debug\GeorgiaDavid_NewHealthSystem.csproj.CoreCompileInputs.cache
+C:\Users\georg\ProbuilderCity\GeorgiaDavid_NewHealthSystem\GeorgiaDavid_NewHealthSystem\obj\Debug\GeorgiaDavid_NewHealthSystem.exe
+C:\Users\georg\ProbuilderCity\GeorgiaDavid_NewHealthSystem\GeorgiaDavid_NewHealthSystem\obj\Debug\GeorgiaDavid_NewHealthSystem.pdb
