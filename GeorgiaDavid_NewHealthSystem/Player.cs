@@ -13,8 +13,8 @@ namespace GeorgiaDavid_NewHealthSystem
         static int _maxHealth;
         static int _maxSheild;
 
-        public Health _Health { get; private set; } = new Health(_maxHealth);
-        public Health _Sheild { get; private set; } = new Health(_maxSheild);
+        public Health _Health { get; private set; }
+        public Health _Sheild { get; private set; }
 
         private string _healthStatus1;
         private string _healthStatus2;
@@ -27,6 +27,9 @@ namespace GeorgiaDavid_NewHealthSystem
 
             _maxHealth = maxHealth;
             _maxSheild = maxSheild;
+
+            _Health = new Health(_maxHealth);
+            _Sheild = new Health(_maxSheild);
 
             _healthStatus1 = "Stable";
             _healthStatus2 = "Critical";

@@ -17,6 +17,19 @@ namespace GeorgiaDavid_NewHealthSystem
             Player player = new Player(playerName, 100, 100);
 
             Console.WriteLine("player: " + player.Name);
+            Console.Write("health: " + player._Health.CurrentHealth);
+            Console.Write(" sheild: " + player._Sheild.CurrentHealth);
+            Console.WriteLine(" status: " + player.GetStatusString());
+            Console.ReadKey();
+            Console.Clear();
+
+            Console.WriteLine("Press D key to take damage or H key to heal");
+            Console.ReadKey();
+            Console.Clear();
+
+            ConsoleKeyInfo keyInfo = Console.ReadKey();
+            
+
         }
     }
 }
